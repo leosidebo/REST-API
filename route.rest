@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5e445db86ae93b360c01a7b5
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Leo",
+    "subscriberToChannel": "MrMouton"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5e445db86ae93b360c01a7b5
+
+### 
+
+PATCH http://localhost:3000/subscribers/5e445f6100369f2840834e1e
+Content-Type: application/json
+
+{
+    "name": "Kleo"
+}
